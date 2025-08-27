@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "nodemon --env-file=src/.env src/index.js",
-    "start": "node --env-file=src/.env src/index.js"
+    "start": "node src/index.js"
+
   },
   "keywords": [],
   "author": "",
