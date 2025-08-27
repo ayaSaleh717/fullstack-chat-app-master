@@ -1,5 +1,5 @@
 import axios from "axios";
-const API_URL = 'https://fullstack-chat-app-master-snzs.onrender.com/';
+const API_URL = 'https://fullstack-chat-app-master-snzs.onrender.com';
 
 export const axiosInstance = axios.create({
   baseURL: API_URL,
