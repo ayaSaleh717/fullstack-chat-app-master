@@ -4,7 +4,7 @@ import toast from "react-hot-toast";
 import { io } from "socket.io-client";
 
 // Base URL for API and WebSocket connections
-const BASE_URL = "http://localhost:3500/";
+const BASE_URL = "https://chat-app-backnd.onrender.com";
 
 /**
  * Authentication and WebSocket store using Zustand
